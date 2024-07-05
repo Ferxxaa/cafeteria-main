@@ -24,6 +24,7 @@ urlpatterns = [
     path('nosotros/', views.nosotros, name='nosotros'),
     path('factura/', views.generar_factura, name='factura'),
     path('registro/', views.registrar_cliente, name='registro_cliente'),
+    path('', views.login_t, name='login'),
     
 ]
     

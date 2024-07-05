@@ -217,3 +217,4 @@ def registrar_cliente(request):
         return redirect('home')  # Reemplaza 'ruta_a_tu_pagina_de_confirmacion' con la URL adecuada
 
     return render(request, 'proyecto/registro.html')
+

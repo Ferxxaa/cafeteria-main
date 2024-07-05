@@ -1,7 +1,8 @@
-{% extends 'proyecto/base.html' %}
+
 {% load static %}
 {% block content %}
 
+<link rel="stylesheet" href="{% static 'css/registro-styles.css' %}">
 <div class="contenedor-login">
     <form method="POST" action="{% url 'registro_cliente' %}" class="form-login">
         {% csrf_token %}
